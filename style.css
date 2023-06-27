@@ -1,0 +1,95 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+.Age{
+    border-radius: 15px;
+    border-bottom-right-radius: 140px;
+    height: 360px;
+    width: 500px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255,255);
+    align-self: center;
+}
+body{
+    font-family: Poppins;
+    height: 96vh;
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: center;
+}
+#inputs{
+    margin-top: 10px;
+}
+.val{
+    color: hsl(259, 100%, 65%);
+}
+span{
+    color: hsl(259, 100%, 65%);
+}
+input{
+    font: Poppins;
+    font-size: 23px;
+    font-weight: bolder;
+    padding-left: 15px;
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    --webkit-appearance: none;
+
+}
+h1{
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 65px;
+    font-weight: 400i;
+    line-height: 1;
+}
+hr{
+    margin-top: 30px;
+    width: 400px;
+    float: left;
+    opacity: 0.4;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+input:hover{
+    border: 1px solid hsl(259, 100%, 65%);
+}
+#Dob{
+    height: 21px;
+}
+label{
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-right: 110px;
+    float: left;
+    margin: auto;
+}
+#text{
+    margin-top: 20px;
+}
+#btn{
+    float: inherit;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+    transition: 0.5s;
+}
+img{
+    width: 30px;
+}
+#btn:hover{
+    background-color: hsl(0, 0%, 8%);
+}
